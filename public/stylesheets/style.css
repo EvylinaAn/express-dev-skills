@@ -4,5 +4,23 @@ body {
 }
 
 a {
+  text-decoration: none;
   color: #00B7FF;
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+.delete-form {
+  display: inline-block;
+  margin-right: 5px;
+}
+	
+.delete-form button {
+  color: red;
+}
+	
+li {
+  list-style: none;
 }

@@ -1,0 +1,18 @@
+<%- include('../partials/header') %>
+
+<nav>
+  <ul>
+    <li><a href="/skills">&lt; Back</a></li>
+  </ul>
+</nav>
+<hgroup>
+  <h1><%= skill.category %></h1>
+  <h2>
+    <strong><%= skill.name %></strong> - Proficiency level:<small>
+      <%= skill.proficiency %>
+    </small>
+  </h2>
+  <h3>Years of experience: <%= skill.experienceYears %></h3>
+</hgroup>
+
+<%- include('../partials/footer') %>

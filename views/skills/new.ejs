@@ -1,0 +1,17 @@
+<%- include('../partials/header') %>
+<nav>
+  <ul>
+    <li><a href="/skills">&lt; Back</a></li>
+  </ul>
+</nav>
+<h1>New Skill</h1>
+
+<form action="/skills" method="POST">
+  <input type="text" name="name" placeholder="name" required>
+  <input type="text" name="category" placeholder="category" required>
+  <input type="text" name="proficiency" placeholder="proficiency" required>
+  <input type="text" name="experienceYears" placeholder="years of experience" required>
+  <button type="submit">Add Skill</button>
+</form>
+
+<%- include('../partials/footer') %>
